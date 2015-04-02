@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //TabBar의 Selected Icon&text Color 설정
+        //UITabBar.appearance().tintColor = UIColor.blackColor()
         return true
     }
 

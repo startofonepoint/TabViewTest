@@ -14,6 +14,7 @@
 		57FD47FF1ABFAD600070FE1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FD47FE1ABFAD600070FE1C /* Images.xcassets */; };
 		57FD48021ABFAD600070FE1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57FD48001ABFAD600070FE1C /* LaunchScreen.xib */; };
 		57FD480E1ABFAD600070FE1C /* TabViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD480D1ABFAD600070FE1C /* TabViewTestTests.swift */; };
+		57FD48181ABFAE600070FE1C /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD48171ABFAE600070FE1C /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		57FD48071ABFAD600070FE1C /* TabViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FD480C1ABFAD600070FE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57FD480D1ABFAD600070FE1C /* TabViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTestTests.swift; sourceTree = "<group>"; };
+		57FD48171ABFAE600070FE1C /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTabBarController.swift; path = ../CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				57FD47F51ABFAD5F0070FE1C /* AppDelegate.swift */,
 				57FD47F71ABFAD5F0070FE1C /* FirstViewController.swift */,
 				57FD47F91ABFAD600070FE1C /* SecondViewController.swift */,
+				57FD48171ABFAE600070FE1C /* CustomTabBarController.swift */,
 				57FD47FB1ABFAD600070FE1C /* Main.storyboard */,
 				57FD47FE1ABFAD600070FE1C /* Images.xcassets */,
 				57FD48001ABFAD600070FE1C /* LaunchScreen.xib */,
@@ -164,6 +167,7 @@
 				TargetAttributes = {
 					57FD47EF1ABFAD5F0070FE1C = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = MSR962JFFX;
 					};
 					57FD48061ABFAD600070FE1C = {
 						CreatedOnToolsVersion = 6.2;
@@ -217,6 +221,7 @@
 			files = (
 				57FD47FA1ABFAD600070FE1C /* SecondViewController.swift in Sources */,
 				57FD47F61ABFAD5F0070FE1C /* AppDelegate.swift in Sources */,
+				57FD48181ABFAE600070FE1C /* CustomTabBarController.swift in Sources */,
 				57FD47F81ABFAD5F0070FE1C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TabViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TabViewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
